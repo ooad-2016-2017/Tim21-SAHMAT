@@ -25,3 +25,11 @@ Korisnik nakon pokretanja aplikacije se loguje kao gost ili kao korisnik sa lič
 - Pritanje računa od strane korisnika 
 - Ponavljanje čestih narudžbi
 - Aktivno praćenje statusa vaše narudžbe
+
+## Akteri
+
+- Naručilac
+- Dostavljač
+- Uposlenik restorana
+- Sistem za autorizaciju kupona i vaučera
+- Sistem za autorizaciju kartica
