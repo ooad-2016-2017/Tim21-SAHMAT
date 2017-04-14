@@ -1,0 +1,51 @@
+1. Princip pojedinacne odgovornosti
+
+Baza: klasa koja radi sa bazom podataka, pokriva samo jednu funkcionalnost i
+jedini razlog za njenu promjenu bi bila promjena strukture baze.
+Osoba: klasa koja ima samo getere i settere te metodu ispisi, ispunjava samo jednu
+funkcionalnost i jedini razlog za njeno mijenjanje bi bila izmjena strukture.
+Uposlenik Restorana: Ima dvije metode koje se vezu za pripremu narudzbe,
+samim tim izvrsava jednu funkcionalnost
+Dostavljac: Ima samo jednu metodu koja nije get/set, samim tim i jednu funkcionalnost
+Racun: Klasa koja sluzi za obavljane funkcionalnosti printanja racuna, ima jednu metodu,
+izvrsava jednu funkcionalnost pa i zadovoljava ovaj princip kao i ostale klase.
+Gost: Ima samo get/set metode, samim tim zadovoljava ovaj princip.
+Korisnik: Klasa korisnik ima vise metoda koje su takve da sve zajedno obavljaju jednu funkcionalnost
+te izmjenom bilo koje od klasa u programu ne dolazi do njene modifikacije, njena glavna
+funkcionalnost je cuvanje podataka o korisniku, pa zadovoljava ovaj princip.
+Kupon: klasa ispunjava samo jednu funkcionalnost, upravlja kuponima i popustima, te jedini razlog
+za njeno mijenjanje bi bilo izmjena strukture kupona.
+Restoran: Klasa koja pored getera i setera ima veliki broj metoda koje se odnose na druge klase, te tako zavisi
+od dostavljaca, kupona, i uposlenika, pa ne ispunjava ovaj princip pojedinacne odgovornosti.
+StavkaNarudzbe: Klasa ima samo getere i setere, samim tim ispunjva ovaj princip i jedini razlog za njenu promjenu bi bila
+izmjena strukture.
+Jelo: Klasa obavlja samo jednu funkcionalnost, pa ispunjava ovaj princip.
+Jelovnik: Klasa pored getera i setera ima metode koje su sve vezane za jednu funkcionalnost, jelovnik, i
+jedini razlog za njenu promjenu bi bilo mijenjanje njene strukture, tako da ispunjava ovaj princip.
+eDostava: Kontejnerska klasa koja sadrzi sve navedene informacije o drugim klasama, medjutim dizajnirana tako da izmjena bilo koje od
+drugih klasa ne utice na nju, samim tim ispunjava navedeni princip.
+
+2. Otvoreno-Zatvoren princip
+
+Ovaj princip je vecinski ispostovan, sve klase su otvorene za nadogradnju, a u slucaju modifikacija, jedina klasa koja ne ispunjava ovaj princip
+je ponovo klasa Restoran, koja bi se morala modificirati u skladu sa klasama Dostavljac, Kupon i Uposlenik.
+
+3. Listkov princip zamjene
+
+Iz klase Osoba, izveli smo klase UposlenikRestorana, Dostavljac i Gost, s obzirom da je nas sistem baziran na ulogama, one koriste da bi se
+uloge tri navedene vrste osoba jasno razlikovale, medjutim klasa Osoba se moze koristiti na mjestu bilo koje od njih, uz prikladno dodavanje metoda,
+cime vidimo da je Listkov princip zamjene ispunjen.
+
+4. Princip inverzne ovisnosti
+
+-A. Vise nego ocito sve klase koje se nasljedjuju ne ovise od izvedenih klasa ni u kom pogledu.
+ Pracenjem svih strelica mozemo uociti da im je konacni cilj apstraktna klasa, cime vidimo da princip nije narusen.
+-B. Moduli su neovisni od detalja sistema. Apstrakcijom klase "Osoba" smo riješili sve detalje koji bi se duplicirali
+ u izvedenim klasama te su time moduli ostali neovisni od detalja i princip nije narušen.
+
+5. Princip izoliranja interfacea
+
+Vrseci detaljniji pregled dijagrama klasa, vidimo da je i ovaj princip ispostovan. Prilikom dizajniranja klasa posvecena je paznja
+da se sve prije navedene funkcionalnosti mogu izvesti preko navedenih metoda, te ce se sve navedene metode u klasama sigurno koristiti.
+Naravno neke ce se koristiti cesce od drugih, ali uklanjanjem bilo koje od metoda klase veoma lako mogu izgubiti svoj smisao i potpunost
+funkcionalnosti koju izvrsavaju.
