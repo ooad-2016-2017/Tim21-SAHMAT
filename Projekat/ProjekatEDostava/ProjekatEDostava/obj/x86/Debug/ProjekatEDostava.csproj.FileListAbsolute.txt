@@ -729,3 +729,13 @@ C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\D
 C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\Filteri.xbf
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\Kupon.xbf
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Filteri.g.i.cs
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Filteri.g.cs
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Kupon.g.i.cs
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Kupon.g.cs
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Filteri.xaml
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Kupon.xaml
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Filteri.xbf
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\obj\x86\Debug\Kupon.xbf

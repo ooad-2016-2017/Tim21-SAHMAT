@@ -98,6 +98,12 @@
     <Compile Include="DostavljacPrikaz.xaml.cs">
       <DependentUpon>DostavljacPrikaz.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Filteri.xaml.cs">
+      <DependentUpon>Filteri.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kupon.xaml.cs">
+      <DependentUpon>Kupon.xaml</DependentUpon>
+    </Compile>
     <Compile Include="KorisnickiProfil.xaml.cs">
       <DependentUpon>KorisnickiProfil.xaml</DependentUpon>
     </Compile>
@@ -168,6 +174,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="DostavljacPrikaz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filteri.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kupon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

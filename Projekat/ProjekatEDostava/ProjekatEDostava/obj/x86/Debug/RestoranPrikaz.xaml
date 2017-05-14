@@ -8,65 +8,44 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1.1*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="1.75*" />
-                <RowDefinition Height="5*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="1.5*" />
-            </Grid.RowDefinitions>
-            <TextBlock x:ConnectionId='3' Grid.Row="0" x:Name="textBlock" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Dobro dosli uposlenik (Restoran)!" VerticalAlignment="Center" FontSize="30"/>
-            <Image x:ConnectionId='4' Grid.Row="0" x:Name="image" HorizontalAlignment="Right" Margin = "15" VerticalAlignment="Center" Source="Assets/person-flat.png" />
-            <TextBlock x:ConnectionId='5' Grid.Row="1" x:Name="textBlock1" HorizontalAlignment="Left" Margin="15,15,0,0" TextWrapping="Wrap" Text="Narudžbe na čekanju" VerticalAlignment="Top" FontSize="24" />
-            <ListView x:ConnectionId='6' Grid.Row="1" x:Name="listView" HorizontalAlignment="Left" Height="180" Margin="15,70,0,0" VerticalAlignment="Top" Width="480">
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-            </ListView>
-            <TextBlock x:ConnectionId='7' Grid.Row="2" x:Name="textBlock2" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Pošalji narudžbu" VerticalAlignment="Center" FontSize="24"/>
-            <TextBlock x:ConnectionId='8' Grid.Row="3" x:Name="textBlock3" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Označite dostavljača: " VerticalAlignment="Center" FontSize="24"/>
-            <TextBlock x:ConnectionId='9' Grid.Row="4" x:Name="textBlock4" HorizontalAlignment="Left"  Margin="15,0,0,0" TextWrapping="Wrap" Text="Označite narudžbu: " VerticalAlignment="Center" FontSize="24"/>
-            <ComboBox x:ConnectionId='10' Grid.Row="3" x:Name="comboBox" HorizontalAlignment="Left" Margin="250,0,0,0" VerticalAlignment="Center" Width="250" FontSize="24">
-                <ComboBoxItem Content="Nesto1"/>
-                <ComboBoxItem Content="Nesto2"/>
-            </ComboBox>
-            <ComboBox x:ConnectionId='11' Grid.Row="4" x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="250,0,0,0" VerticalAlignment="Center" Width="250" FontSize="24" Height="44">
-                <ComboBoxItem Content="Nesto1"/>
-                <ComboBoxItem Content="Nesto2"/>
-            </ComboBox>
-            <Button x:ConnectionId='12' Grid.Row="5" x:Name="button" Content="Završi narudžbu" HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Center" Height="44" Width="221" FontSize="18"/>
-        </Grid>
-        <Grid Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="0.165*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <TextBlock x:ConnectionId='1' Grid.Row="1" x:Name="textBlock5" HorizontalAlignment="Left" Margin="15,15,0,0" TextWrapping="Wrap" Text="Trenutna narudžba" VerticalAlignment="Top" FontSize="24"/>
-            <ListView x:ConnectionId='2' Grid.Row="1" x:Name="listView_Copy" HorizontalAlignment="Left" Height="352" Margin="15,70,0,0" VerticalAlignment="Top" Width="470">
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
-            </ListView>
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="69,64,0,0" TextWrapping="Wrap" Text="Dobro dosli uposlenik (Restoran)!" VerticalAlignment="Top" Height="62" Width="562" FontSize="35"/>
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="631,26,0,0" VerticalAlignment="Top" Width="100" Source="Assets/person-flat.png" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="69,131,0,0" Stroke="Black" VerticalAlignment="Top" Width="662"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" HorizontalAlignment="Left" Margin="69,181,0,0" TextWrapping="Wrap" Text="Narudžbe na čekanju" VerticalAlignment="Top" FontSize="24" Height="44" Width="562"/>
+        <ListView x:ConnectionId='4' x:Name="listView" HorizontalAlignment="Left" Height="250" Margin="69,230,0,0" VerticalAlignment="Top" Width="662">
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+        </ListView>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock2" HorizontalAlignment="Left" Margin="69,525,0,0" TextWrapping="Wrap" Text="Pošalji narudžbu" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock3" HorizontalAlignment="Left" Margin="69,603,0,0" TextWrapping="Wrap" Text="Označite dostavljača: " VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock4" HorizontalAlignment="Left" Margin="69,671,0,0" TextWrapping="Wrap" Text="Označite narudžbu: " VerticalAlignment="Top" FontSize="24"/>
+        <ComboBox x:ConnectionId='8' x:Name="comboBox" HorizontalAlignment="Left" Margin="375,591,0,0" VerticalAlignment="Top" Width="356" FontSize="24">
+            <ComboBoxItem Content="Nesto1"/>
+            <ComboBoxItem Content="Nesto2"/>
+        </ComboBox>
+        <ComboBox x:ConnectionId='9' x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="375,653,0,0" VerticalAlignment="Top" Width="356" FontSize="24" Height="44">
+            <ComboBoxItem Content="Nesto1"/>
+            <ComboBoxItem Content="Nesto2"/>
+        </ComboBox>
+        <Button x:ConnectionId='10' x:Name="button" Content="Završi narudžbu" HorizontalAlignment="Left" Margin="69,720,0,0" VerticalAlignment="Top" Height="44" Width="221" FontSize="18"/>
+        <TextBlock x:ConnectionId='11' x:Name="textBlock5" HorizontalAlignment="Left" Margin="816,181,0,0" TextWrapping="Wrap" Text="Trenutna narudžba" VerticalAlignment="Top" FontSize="24"/>
+        <ListView x:ConnectionId='12' x:Name="listView_Copy" HorizontalAlignment="Left" Height="534" Margin="816,230,0,0" VerticalAlignment="Top" Width="587">
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+        </ListView>
 
-        </Grid>
-        
     </Grid>
 </Page>
 

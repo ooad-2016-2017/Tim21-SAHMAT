@@ -38,6 +38,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="HorizontalAlignment" />
@@ -55,6 +56,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />
@@ -64,6 +66,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
+      <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -74,8 +77,6 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="TabIndex" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="Background" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
@@ -89,9 +90,26 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
-      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="ProjekatEDostava.DostavljacPrikaz" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="InputScope" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TabIndex" />
+    </RootType>
+    <RootType FullName="ProjekatEDostava.Filteri" />
+    <RootType FullName="ProjekatEDostava.Kupon" />
     <RootType FullName="ProjekatEDostava.UnosSlike">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
@@ -100,19 +118,6 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="ProjekatEDostava.KorisnickiProfil" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="InputScope" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TabIndex" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
@@ -133,34 +138,8 @@
     </RootType>
     <RootType FullName="ProjekatEDostava.KarticnoPlacanje" />
     <RootType FullName="ProjekatEDostava.mainpagepokusaj" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Items" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem">
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="ProjekatEDostava.Narudzba" />
     <RootType FullName="ProjekatEDostava.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
-      <RootProperty Name="IsPaneOpen" />
-      <RootProperty Name="CompactPaneLength" />
-      <RootProperty Name="OpenPaneLength" />
-      <RootProperty Name="PaneBackground" />
-      <RootProperty Name="DisplayMode" />
-      <RootProperty Name="Pane" />
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Children" />
-      <RootProperty Name="Orientation" />
-      <RootProperty Name="Background" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="ProjekatEDostava.NaslovnaRacun" />
     <RootType FullName="ProjekatEDostava.Registracija" />
     <RootType FullName="ProjekatEDostava.Restoran" />
@@ -168,9 +147,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="ProjekatEDostava.RestoranPrikaz" />
-    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="ProjekatEDostava.ZavrsiNarudzbu" />
   </Roots.RootTypes>
 </Roots>

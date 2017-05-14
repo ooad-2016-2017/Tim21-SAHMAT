@@ -1,0 +1,32 @@
+﻿<UserControl
+    x:Class="ProjekatEDostava.Filteri"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatEDostava"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="500"
+    d:DesignWidth="500">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Unesite jelo: " FontSize="16"/>
+        <TextBox  Height="32" Width="100" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="100" Height="32" Content="Potvrdi"/>
+        <TextBlock Text="Restorani sa vasim jelom: " FontSize="16" Grid.Row="1"/>
+        <ListView x:Name="listView" Grid.Row="1" HorizontalAlignment="Right"  VerticalAlignment="Stretch" >
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+            <ListViewItem Content="ListViewItem"/>
+        </ListView>
+    </Grid>
+</UserControl>
