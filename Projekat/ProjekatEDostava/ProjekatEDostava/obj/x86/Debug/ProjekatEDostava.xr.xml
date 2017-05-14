@@ -91,6 +91,24 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="ProjekatEDostava.DostavljacPrikaz" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="InputScope" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TabIndex" />
+    </RootType>
+    <RootType FullName="ProjekatEDostava.Filteri" />
+    <RootType FullName="ProjekatEDostava.Kupon" />
     <RootType FullName="ProjekatEDostava.UnosSlike">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
@@ -99,19 +117,6 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="ProjekatEDostava.KorisnickiProfil" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="InputScope" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TabIndex" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
@@ -151,9 +156,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="ProjekatEDostava.RestoranPrikaz" />
-    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="ProjekatEDostava.ZavrsiNarudzbu" />
   </Roots.RootTypes>
 </Roots>

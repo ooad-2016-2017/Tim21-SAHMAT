@@ -9,21 +9,30 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="102,123,0,0" TextWrapping="Wrap" Text="Naruci jelo: " VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="102,218,0,0" TextWrapping="Wrap" Text="Odaberite restoran: " VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="370,222,0,0" TextWrapping="Wrap" Text="Odaberite jelo: " VerticalAlignment="Top"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="197" Margin="102,264,0,0" VerticalAlignment="Top" Width="141">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="16"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Naruci jelo: " VerticalAlignment="Center" Margin="0,65"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Odaberite restoran: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Grid.Column="2" Grid.Row="1" TextWrapping="Wrap" Text="Odaberite jelo: " VerticalAlignment="Top"/>
+        <ListView x:Name="listView" HorizontalAlignment="Center"  VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"  >
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
         </ListView>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="197" Margin="370,264,0,0" VerticalAlignment="Top" Width="147">
-            <ListBoxItem Content="ListBoxItem"/>
-            <ListBoxItem Content="ListBoxItem"/>
-            <ListBoxItem Content="ListBoxItem"/>
-        </ListBox>
-        <Button x:Name="button" Content="Naruci!" HorizontalAlignment="Left" Margin="252,502,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <ListView x:Name="listBox" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="1" VerticalAlignment="Top">
+            <ListViewItem Content="ListBoxItem"/>
+            <ListViewItem Content="ListBoxItem"/>
+            <ListViewItem Content="ListBoxItem"/>
+        </ListView>
+        <Button x:Name="button" Content="Naruci!" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center"  VerticalAlignment="Top" Click="button_Click" />
+        <local:Filteri Grid.Column="3" Grid.Row="2" />
     </Grid>
 </Page>
