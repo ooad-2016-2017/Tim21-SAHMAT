@@ -26,7 +26,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="0.2*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="button" Content="Prijavi se" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="2" Height="35" Width="149"  TabIndex="3" />
+            <Button x:Name="button" Content="Prijavi se" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="2" Height="35" Width="149"  TabIndex="3" Click="button_Click" />
             <Button x:Name="button_Copy" Content="Prijavi se kao gost" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" VerticalAlignment="Top" Height="35" Width="149" TabIndex="4"  />
             <TextBox x:Name="Pass" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" Width="149" PlaceholderText="Password" Height="32"  TabIndex="2" />
             <TextBox x:Name="Username" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Width="149" PlaceholderText="Username" Height="32"  TabIndex="1" />
