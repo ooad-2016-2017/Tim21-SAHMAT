@@ -8,24 +8,49 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="129,77,0,0" TextWrapping="Wrap" Text="Registracija" VerticalAlignment="Top" Height="80" Width="202" FontSize="30"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="129,257,0,0" TextWrapping="Wrap" Text="Ime" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="129,326,0,0" TextWrapping="Wrap" Text="Prezime" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="129,391,0,0" TextWrapping="Wrap" Text="Adresa" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="129,460,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="129,531,0,0" TextWrapping="Wrap" Text="Tel. br." VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="1058,257,0,0" TextWrapping="Wrap" Text="Slika" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy5" HorizontalAlignment="Left" Margin="506,261,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1_Copy6" HorizontalAlignment="Left" Margin="506,326,0,0" TextWrapping="Wrap" Text="Potvrdi password" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="260,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="260,326,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Margin="260,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Margin="260,460,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
-        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="260,519,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="695,261,0,0" VerticalAlignment="Top" Height="32" Width="195"/>
-        <PasswordBox x:Name="passwordBox1" HorizontalAlignment="Left" Margin="695,326,0,0" VerticalAlignment="Top" Height="32" Width="195"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="1140,680,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="button" Content="Registruj se" HorizontalAlignment="Left" Margin="695,519,0,0" VerticalAlignment="Top" Height="32" Width="195"/>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="3*" />
+            </Grid.RowDefinitions>
+            <Rectangle Fill="#FFF4F4F5" Grid.Row="0" HorizontalAlignment="Left" Height="1" Stroke="Black" VerticalAlignment="Bottom" Width="500"/>
+            <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Left"  Margin="15,0,0,0" TextWrapping="Wrap" Text="Registracija" VerticalAlignment="Center" FontSize="30"/>
+            <TextBlock x:Name="textBlock1" Grid.Row="2" HorizontalAlignment="Left" Margin="15,0,0,0"  TextWrapping="Wrap" Text="Ime" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock x:Name="textBlock1_Copy" Grid.Row="3" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Prezime" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock x:Name="textBlock1_Copy1" Grid.Row="4" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Adresa" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock x:Name="textBlock1_Copy2" Grid.Row="5" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock x:Name="textBlock1_Copy3" Grid.Row="6" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Tel. br." VerticalAlignment="Center" FontSize="24"/>
+            <TextBox x:Name="textBox" Grid.Row="2" HorizontalAlignment="Left"  Margin="185,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="20" Width="225"/>
+            <TextBox x:Name="textBox_Copy" Grid.Row="3" HorizontalAlignment="Left"  Margin="185,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="20" Width="225"/>
+            <TextBox x:Name="textBox_Copy1" Grid.Row="4" HorizontalAlignment="Left"  Margin="185,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="20" Width="225"/>
+            <TextBox x:Name="textBox_Copy2" Grid.Row="5" HorizontalAlignment="Left"  Margin="185,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="20" Width="225"/>
+            <TextBox x:Name="textBox_Copy3" Grid.Row="6" HorizontalAlignment="Left"  Margin="185,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="20" Width="225"/>
+        </Grid>
+        <Grid Grid.Column="1" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2.5*" />
+                <RowDefinition Height="3.45*" />
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="textBlock1_Copy4" Grid.Row="4" Margin="15,0,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Slika" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock x:Name="textBlock1_Copy5" Grid.Row="2" Margin="15,0,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock x:Name="textBlock1_Copy6" Grid.Row="3" Margin="15,0,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Potvrdi password" VerticalAlignment="Center" FontSize="24"/>
+            <PasswordBox x:Name="passwordBox" Grid.Row="2" Margin="225,0,0,0" HorizontalAlignment="Left" Height="32" Width="225" VerticalAlignment="Center" FontSize="24"/>
+            <PasswordBox x:Name="passwordBox1" Grid.Row="3" Margin="225,0,0,0" HorizontalAlignment="Left" Height="32" Width="225" VerticalAlignment="Center" FontSize="24"/>
+            <Button x:Name="button" Grid.Row="5" Content="Registruj se" Margin="15,25,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="195"/>
+        </Grid>
     </Grid>
 </Page>
