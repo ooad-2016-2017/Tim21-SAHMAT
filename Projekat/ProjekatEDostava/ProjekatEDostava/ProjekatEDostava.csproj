@@ -141,8 +141,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\American-Express-icon.png" />
+    <Content Include="Assets\avatar.png" />
+    <Content Include="Assets\basket-cart-icon-27.png" />
     <Content Include="Assets\cvv.png" />
+    <Content Include="Assets\home-5-xxl.png" />
+    <Content Include="Assets\kupon.png" />
+    <Content Include="Assets\logout-512.png" />
     <Content Include="Assets\Maestro-icon.png" />
+    <Content Include="Assets\map-5-xxl.png" />
+    <Content Include="Assets\Map-512.png" />
     <Content Include="Assets\mastercard.png" />
     <Content Include="Assets\person-flat.png" />
     <Content Include="Assets\Visa-icon.png" />

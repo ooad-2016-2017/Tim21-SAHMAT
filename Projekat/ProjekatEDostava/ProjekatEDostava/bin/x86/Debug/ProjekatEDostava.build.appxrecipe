@@ -337,11 +337,32 @@
     <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\American-Express-icon.png">
       <PackagePath>Assets\American-Express-icon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\avatar.png">
+      <PackagePath>Assets\avatar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\basket-cart-icon-27.png">
+      <PackagePath>Assets\basket-cart-icon-27.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\cvv.png">
       <PackagePath>Assets\cvv.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\home-5-xxl.png">
+      <PackagePath>Assets\home-5-xxl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\kupon.png">
+      <PackagePath>Assets\kupon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\logout-512.png">
+      <PackagePath>Assets\logout-512.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\Maestro-icon.png">
       <PackagePath>Assets\Maestro-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\map-5-xxl.png">
+      <PackagePath>Assets\map-5-xxl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\Map-512.png">
+      <PackagePath>Assets\Map-512.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\Assets\mastercard.png">
       <PackagePath>Assets\mastercard.png</PackagePath>

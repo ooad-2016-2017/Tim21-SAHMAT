@@ -22,7 +22,7 @@ namespace ProjekatEDostava
 
         private void button_Click(System.Object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Registracija));
+            this.Frame.Navigate(typeof(NaslovnaRacun));
         }
     }
 }

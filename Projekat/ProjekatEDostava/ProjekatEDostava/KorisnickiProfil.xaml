@@ -51,7 +51,7 @@
             <TextBlock x:Name="textBlock12" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Prijašnje narudžbe" VerticalAlignment="Center" FontSize="24" Grid.Column="2"/>
             <ListView x:Name="listView"  Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <ListViewItem Content="ListViewItem"/>
-                <ListViewItem Content="ListViewItem"/>
+                <ListViewItem Content="ListViewItem" Width="300"/>
                 <ListViewItem Content="ListViewItem"/>
                 <ListViewItem Content="ListViewItem"/>
                 <ListViewItem Content="ListViewItem"/>
@@ -59,7 +59,7 @@
                 <ListViewItem Content="ListViewItem"/>
             </ListView>
             <Button x:Name="button1" Content="Ponovi narudžbu" HorizontalAlignment="Left"  VerticalAlignment="Center" Height="36" Width="221" FontSize="18" Grid.Row="2"/>
-            <TextBlock x:Name="textBlock13" HorizontalAlignment="Right"  TextWrapping="Wrap" Text="Još X narudžbi do sljedeće besplatne narudžbe" VerticalAlignment="Center" FontSize="20" Grid.Row="2"/>
+            <TextBlock x:Name="textBlock13" HorizontalAlignment="Right"  TextWrapping="Wrap" Margin="0,0,50,0" Text="Još X narudžbi do sljedeće besplatne narudžbe" VerticalAlignment="Center" FontSize="20" Grid.Row="2"/>
         </Grid>
 
 

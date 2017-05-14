@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="ProjekatEDostava.Restoran"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatEDostava"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' x:Name="Najveci" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*" />
+            <RowDefinition Height="*"    />
+        </Grid.RowDefinitions>
+        <Grid x:ConnectionId='2' x:Name="Gore" Grid.Row="0" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid x:ConnectionId='7' x:Name="GoreLijevo" Grid.Row="0" Grid.Column="0" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.35*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image x:ConnectionId='9' x:Name="image" HorizontalAlignment="center" Grid.Column="0" Height="auto" Margin="5" VerticalAlignment="Top" Width="auto" Source="Assets/person-flat.png"/>
+                <Grid x:ConnectionId='10' x:Name ="Podaci" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock x:ConnectionId='11' x:Name="naziv" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.Row ="0" TextWrapping="Wrap" Text="Ime restorana" VerticalAlignment="Top" FontSize="24" />
+                    <TextBlock x:ConnectionId='12' x:Name="adresa" HorizontalAlignment="Left" Margin="5,0,0,0" Grid.Row ="1" TextWrapping="Wrap" Text="Adresa" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:ConnectionId='13' x:Name="rejting" HorizontalAlignment="Left" Margin="5,0,0,0" Grid.Row ="2" TextWrapping="Wrap" Text="Rating" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:ConnectionId='14' x:Name="radnoVrijeme" HorizontalAlignment="Left" Margin="5,0,0,0" Grid.Row ="3" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Text="Radno vrijeme: 07:00-21:00"/>
+
+                </Grid>
+            </Grid>
+            <TextBlock x:ConnectionId='8' x:Name="PromoKodovi" HorizontalAlignment="Right" Margin="0,5,10,0" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Text="Promo Kodovi (Zeleno/Crveno)"/>
+
+        </Grid>
+        <Grid x:ConnectionId='3' x:Name="Dole" Grid.Row="1" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock x:ConnectionId='4' x:Name="OpisRestorana" Grid.Column="0" HorizontalAlignment="Left" Margin ="60,50" TextWrapping="Wrap" Text="Opis Restorana" VerticalAlignment="Top" FontSize="24"/>
+            <TextBlock x:ConnectionId='5' x:Name="Jelovnik" Grid.Column="1" HorizontalAlignment="Left" Margin ="60,50,0,0" TextWrapping="Wrap" Text="Jelovnik" VerticalAlignment="Top" Height="32" FontSize="24" Width="92"/>
+            <ListView x:ConnectionId='6' x:Name="JelovnikRestorana" Grid.Column="1" Margin="60,100" Width="Auto" FontSize="24">
+                <ListViewItem Content="Hamburger"/>
+                <ListViewItem Content="Pomfrit"/>
+                <ListViewItem Content="Nesto"/>
+                <ListViewItem Content="Drugaciji Izgled Ce Biti"/>
+            </ListView>
+        </Grid>
+    </Grid>
+</Page>
+
