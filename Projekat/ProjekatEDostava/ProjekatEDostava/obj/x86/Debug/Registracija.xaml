@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="ProjekatEDostava.Registracija"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatEDostava"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="129,77,0,0" TextWrapping="Wrap" Text="Registracija" VerticalAlignment="Top" Height="80" Width="202" FontSize="30"/>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock1" HorizontalAlignment="Left" Margin="129,257,0,0" TextWrapping="Wrap" Text="Ime" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="129,326,0,0" TextWrapping="Wrap" Text="Prezime" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="129,391,0,0" TextWrapping="Wrap" Text="Adresa" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="129,460,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="129,531,0,0" TextWrapping="Wrap" Text="Tel. br." VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="1058,257,0,0" TextWrapping="Wrap" Text="Slika" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='8' x:Name="textBlock1_Copy5" HorizontalAlignment="Left" Margin="506,261,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='9' x:Name="textBlock1_Copy6" HorizontalAlignment="Left" Margin="506,326,0,0" TextWrapping="Wrap" Text="Potvrdi password" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='10' x:Name="textBox" HorizontalAlignment="Left" Margin="260,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
+        <TextBox x:ConnectionId='11' x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="260,326,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
+        <TextBox x:ConnectionId='12' x:Name="textBox_Copy1" HorizontalAlignment="Left" Margin="260,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
+        <TextBox x:ConnectionId='13' x:Name="textBox_Copy2" HorizontalAlignment="Left" Margin="260,460,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
+        <TextBox x:ConnectionId='14' x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="260,519,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="194"/>
+        <PasswordBox x:ConnectionId='15' x:Name="passwordBox" HorizontalAlignment="Left" Margin="695,261,0,0" VerticalAlignment="Top" Height="32" Width="195"/>
+        <PasswordBox x:ConnectionId='16' x:Name="passwordBox1" HorizontalAlignment="Left" Margin="695,326,0,0" VerticalAlignment="Top" Height="32" Width="195"/>
+        <Image x:ConnectionId='17' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="1140,680,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:ConnectionId='18' x:Name="button" Content="Registruj se" HorizontalAlignment="Left" Margin="695,519,0,0" VerticalAlignment="Top" Height="32" Width="195"/>
+
+    </Grid>
+</Page>
+

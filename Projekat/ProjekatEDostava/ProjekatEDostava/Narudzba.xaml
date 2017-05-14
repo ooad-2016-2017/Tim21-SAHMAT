@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            
+        </Grid.RowDefinitions>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="102,123,0,0" TextWrapping="Wrap" Text="Naruci jelo: " VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="102,218,0,0" TextWrapping="Wrap" Text="Odaberite restoran: " VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="370,222,0,0" TextWrapping="Wrap" Text="Odaberite jelo: " VerticalAlignment="Top"/>
