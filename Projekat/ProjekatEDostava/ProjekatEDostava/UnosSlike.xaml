@@ -9,8 +9,15 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="150" Height="160">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="28"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Width="150" Height="134" VerticalAlignment="Bottom"/>
+        <Button Grid.Row="1" Width="100" Height="24" HorizontalAlignment="Center" Content="Odaberite sliku" FontSize="10"/>
     </Grid>
-    
 </UserControl>

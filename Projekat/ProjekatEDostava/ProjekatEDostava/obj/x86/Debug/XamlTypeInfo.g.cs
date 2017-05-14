@@ -136,32 +136,32 @@ namespace ProjekatEDostava.ProjekatEDostava_XamlTypeInfo
             _typeNameTable[0] = "ProjekatEDostava.DostavljacPrikaz";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "ProjekatEDostava.KorisnickiProfil";
-            _typeNameTable[4] = "ProjekatEDostava.KarticnoPlacanje";
-            _typeNameTable[5] = "ProjekatEDostava.mainpagepokusaj";
-            _typeNameTable[6] = "ProjekatEDostava.Narudzba";
-            _typeNameTable[7] = "ProjekatEDostava.MainPage";
-            _typeNameTable[8] = "ProjekatEDostava.NaslovnaRacun";
-            _typeNameTable[9] = "ProjekatEDostava.Registracija";
-            _typeNameTable[10] = "ProjekatEDostava.Restoran";
-            _typeNameTable[11] = "ProjekatEDostava.RestoranPrikaz";
-            _typeNameTable[12] = "ProjekatEDostava.UnosSlike";
+            _typeNameTable[3] = "ProjekatEDostava.UnosSlike";
+            _typeNameTable[4] = "ProjekatEDostava.KorisnickiProfil";
+            _typeNameTable[5] = "ProjekatEDostava.KarticnoPlacanje";
+            _typeNameTable[6] = "ProjekatEDostava.mainpagepokusaj";
+            _typeNameTable[7] = "ProjekatEDostava.Narudzba";
+            _typeNameTable[8] = "ProjekatEDostava.MainPage";
+            _typeNameTable[9] = "ProjekatEDostava.NaslovnaRacun";
+            _typeNameTable[10] = "ProjekatEDostava.Registracija";
+            _typeNameTable[11] = "ProjekatEDostava.Restoran";
+            _typeNameTable[12] = "ProjekatEDostava.RestoranPrikaz";
             _typeNameTable[13] = "ProjekatEDostava.ZavrsiNarudzbu";
 
             _typeTable = new global::System.Type[14];
             _typeTable[0] = typeof(global::ProjekatEDostava.DostavljacPrikaz);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::ProjekatEDostava.KorisnickiProfil);
-            _typeTable[4] = typeof(global::ProjekatEDostava.KarticnoPlacanje);
-            _typeTable[5] = typeof(global::ProjekatEDostava.mainpagepokusaj);
-            _typeTable[6] = typeof(global::ProjekatEDostava.Narudzba);
-            _typeTable[7] = typeof(global::ProjekatEDostava.MainPage);
-            _typeTable[8] = typeof(global::ProjekatEDostava.NaslovnaRacun);
-            _typeTable[9] = typeof(global::ProjekatEDostava.Registracija);
-            _typeTable[10] = typeof(global::ProjekatEDostava.Restoran);
-            _typeTable[11] = typeof(global::ProjekatEDostava.RestoranPrikaz);
-            _typeTable[12] = typeof(global::ProjekatEDostava.UnosSlike);
+            _typeTable[3] = typeof(global::ProjekatEDostava.UnosSlike);
+            _typeTable[4] = typeof(global::ProjekatEDostava.KorisnickiProfil);
+            _typeTable[5] = typeof(global::ProjekatEDostava.KarticnoPlacanje);
+            _typeTable[6] = typeof(global::ProjekatEDostava.mainpagepokusaj);
+            _typeTable[7] = typeof(global::ProjekatEDostava.Narudzba);
+            _typeTable[8] = typeof(global::ProjekatEDostava.MainPage);
+            _typeTable[9] = typeof(global::ProjekatEDostava.NaslovnaRacun);
+            _typeTable[10] = typeof(global::ProjekatEDostava.Registracija);
+            _typeTable[11] = typeof(global::ProjekatEDostava.Restoran);
+            _typeTable[12] = typeof(global::ProjekatEDostava.RestoranPrikaz);
             _typeTable[13] = typeof(global::ProjekatEDostava.ZavrsiNarudzbu);
         }
 
@@ -198,16 +198,16 @@ namespace ProjekatEDostava.ProjekatEDostava_XamlTypeInfo
         }
 
         private object Activate_0_DostavljacPrikaz() { return new global::ProjekatEDostava.DostavljacPrikaz(); }
-        private object Activate_3_KorisnickiProfil() { return new global::ProjekatEDostava.KorisnickiProfil(); }
-        private object Activate_4_KarticnoPlacanje() { return new global::ProjekatEDostava.KarticnoPlacanje(); }
-        private object Activate_5_mainpagepokusaj() { return new global::ProjekatEDostava.mainpagepokusaj(); }
-        private object Activate_6_Narudzba() { return new global::ProjekatEDostava.Narudzba(); }
-        private object Activate_7_MainPage() { return new global::ProjekatEDostava.MainPage(); }
-        private object Activate_8_NaslovnaRacun() { return new global::ProjekatEDostava.NaslovnaRacun(); }
-        private object Activate_9_Registracija() { return new global::ProjekatEDostava.Registracija(); }
-        private object Activate_10_Restoran() { return new global::ProjekatEDostava.Restoran(); }
-        private object Activate_11_RestoranPrikaz() { return new global::ProjekatEDostava.RestoranPrikaz(); }
-        private object Activate_12_UnosSlike() { return new global::ProjekatEDostava.UnosSlike(); }
+        private object Activate_3_UnosSlike() { return new global::ProjekatEDostava.UnosSlike(); }
+        private object Activate_4_KorisnickiProfil() { return new global::ProjekatEDostava.KorisnickiProfil(); }
+        private object Activate_5_KarticnoPlacanje() { return new global::ProjekatEDostava.KarticnoPlacanje(); }
+        private object Activate_6_mainpagepokusaj() { return new global::ProjekatEDostava.mainpagepokusaj(); }
+        private object Activate_7_Narudzba() { return new global::ProjekatEDostava.Narudzba(); }
+        private object Activate_8_MainPage() { return new global::ProjekatEDostava.MainPage(); }
+        private object Activate_9_NaslovnaRacun() { return new global::ProjekatEDostava.NaslovnaRacun(); }
+        private object Activate_10_Registracija() { return new global::ProjekatEDostava.Registracija(); }
+        private object Activate_11_Restoran() { return new global::ProjekatEDostava.Restoran(); }
+        private object Activate_12_RestoranPrikaz() { return new global::ProjekatEDostava.RestoranPrikaz(); }
         private object Activate_13_ZavrsiNarudzbu() { return new global::ProjekatEDostava.ZavrsiNarudzbu(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -235,72 +235,72 @@ namespace ProjekatEDostava.ProjekatEDostava_XamlTypeInfo
                 xamlType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  ProjekatEDostava.KorisnickiProfil
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_KorisnickiProfil;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 4:   //  ProjekatEDostava.KarticnoPlacanje
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_KarticnoPlacanje;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 5:   //  ProjekatEDostava.mainpagepokusaj
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_mainpagepokusaj;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 6:   //  ProjekatEDostava.Narudzba
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_Narudzba;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 7:   //  ProjekatEDostava.MainPage
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 8:   //  ProjekatEDostava.NaslovnaRacun
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_NaslovnaRacun;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  ProjekatEDostava.Registracija
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Registracija;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 10:   //  ProjekatEDostava.Restoran
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_Restoran;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 11:   //  ProjekatEDostava.RestoranPrikaz
-                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_RestoranPrikaz;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 12:   //  ProjekatEDostava.UnosSlike
+            case 3:   //  ProjekatEDostava.UnosSlike
                 userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_12_UnosSlike;
+                userType.Activator = Activate_3_UnosSlike;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  ProjekatEDostava.KorisnickiProfil
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_KorisnickiProfil;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  ProjekatEDostava.KarticnoPlacanje
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_KarticnoPlacanje;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  ProjekatEDostava.mainpagepokusaj
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_mainpagepokusaj;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  ProjekatEDostava.Narudzba
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_Narudzba;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  ProjekatEDostava.MainPage
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  ProjekatEDostava.NaslovnaRacun
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_NaslovnaRacun;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  ProjekatEDostava.Registracija
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_Registracija;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  ProjekatEDostava.Restoran
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_Restoran;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  ProjekatEDostava.RestoranPrikaz
+                userType = new global::ProjekatEDostava.ProjekatEDostava_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_RestoranPrikaz;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

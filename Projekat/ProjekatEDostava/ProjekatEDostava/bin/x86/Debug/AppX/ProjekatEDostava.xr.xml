@@ -54,10 +54,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="Fill" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Stroke" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
     </RootType>
@@ -65,6 +66,8 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Items" />
@@ -85,11 +88,13 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Items" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
