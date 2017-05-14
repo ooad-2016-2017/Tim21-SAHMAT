@@ -25,11 +25,11 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" Grid.Column="1"  TextWrapping="Wrap" Text="Dobro dosli dostavljač!" Grid.Row="1" VerticalAlignment="Bottom" Height="52" Width="328" FontSize="30" HorizontalAlignment="Left" />
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Grid.Column="2"  VerticalAlignment="Top" Width="100" Grid.Row="1" Source="Assets/person-flat.png" />
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" Grid.Column="1"  TextWrapping="Wrap" Text="Dobro dosli dostavljač!" Grid.Row="1" VerticalAlignment="Bottom" Height="52" Width="328" FontSize="30" HorizontalAlignment="Left" />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="100" Grid.Column="2"  VerticalAlignment="Top" Width="100" Grid.Row="1" Source="Assets/person-flat.png" />
         <Rectangle Fill="#FFF4F4F5" Height="1" Stroke="Black" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="1"/>
-        <TextBlock x:Name="textBlock1" Grid.Row="3"  TextWrapping="Wrap" Grid.Column="1" Text="Narudžbe spremne za dostavu" VerticalAlignment="Top" FontSize="24" Height="44" HorizontalAlignment="Stretch" />
-        <ListView x:Name="listView" Grid.Row="4" HorizontalAlignment="Stretch" Height="250"  VerticalAlignment="Stretch" Grid.Column="1"  >
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Grid.Row="3"  TextWrapping="Wrap" Grid.Column="1" Text="Narudžbe spremne za dostavu" VerticalAlignment="Top" FontSize="24" Height="44" HorizontalAlignment="Stretch" />
+        <ListView x:ConnectionId='4' x:Name="listView" Grid.Row="4" HorizontalAlignment="Stretch" Height="250"  VerticalAlignment="Stretch" Grid.Column="1"  >
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
@@ -39,10 +39,11 @@
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
         </ListView>
-        <Button x:Name="button" Grid.Row="5" Grid.Column="1" Content="Prikaži putanju" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
-        <TextBlock x:Name="textBlock2" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Označite narudžbu završenom" VerticalAlignment="Top" FontSize="24" Height="32" Width="320"/>
-        <ComboBox x:Name="comboBox" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Stretch"  VerticalAlignment="Center"  />
-        <Button x:Name="button_Copy" Grid.Row="9" Grid.Column="1" Content="Potvrdi" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
+        <Button x:ConnectionId='5' x:Name="button" Grid.Row="5" Grid.Column="1" Content="Prikaži putanju" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock2" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Označite narudžbu završenom" VerticalAlignment="Top" FontSize="24" Height="32" Width="320"/>
+        <ComboBox x:ConnectionId='7' x:Name="comboBox" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Stretch"  VerticalAlignment="Center"  />
+        <Button x:ConnectionId='8' x:Name="button_Copy" Grid.Row="9" Grid.Column="1" Content="Potvrdi" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
 
     </Grid>
 </Page>
+

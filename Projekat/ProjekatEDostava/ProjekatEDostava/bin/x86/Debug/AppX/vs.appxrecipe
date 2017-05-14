@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T17:27:12.272</Modified>
+      <Modified>2017-05-14T18:22:54.034</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\ProjekatEDostava.exe">
       <PackagePath>entrypoint\ProjekatEDostava.exe</PackagePath>
-      <Modified>2017-05-14T17:27:11.930</Modified>
+      <Modified>2017-05-14T18:22:53.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Afan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -512,7 +512,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\ProjekatEDostava.xr.xml">
       <PackagePath>ProjekatEDostava.xr.xml</PackagePath>
-      <Modified>2017-05-14T17:23:18.684</Modified>
+      <Modified>2017-05-14T18:22:53.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -521,11 +521,11 @@
     <AppxPackagedFile Include="C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T17:27:12.178</Modified>
+      <Modified>2017-05-14T18:22:53.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\bin\x86\Debug\Core\ProjekatEDostava.exe">
       <PackagePath>ProjekatEDostava.exe</PackagePath>
-      <Modified>2017-05-14T17:27:12.270</Modified>
+      <Modified>2017-05-14T18:22:54.029</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
