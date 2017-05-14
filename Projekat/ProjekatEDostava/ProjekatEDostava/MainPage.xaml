@@ -7,7 +7,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="auto" Width="auto" Margin="0,0,-393,-126">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button x:Name="button" Content="Prijavi se" HorizontalAlignment="Center" Margin="917,407,854,0" VerticalAlignment="Top" Grid.Row="1" Height="35" Width="149"/>
+        <Button x:Name="button_Copy" Content="Prijavi se kao gost" HorizontalAlignment="Center" Grid.Row="1" Margin="917,447,854,0" VerticalAlignment="Top" Height="35" Width="149"/>
+        <TextBox x:Name="Pass" HorizontalAlignment="Center" Margin="917,312,854,0" TextWrapping="Wrap" Text="Password" Grid.Row="1" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="Username" HorizontalAlignment="Center" Margin="917,275,854,0" TextWrapping="Wrap" Text="Username" Grid.Row="1" VerticalAlignment="Top" Width="149"/>
+        <Button x:Name="button1" Content="Registracija " HorizontalAlignment="Center" Margin="944,520,881,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="884,56,803,0" TextWrapping="Wrap" Grid.Row="1" Text="Dobro dosli na e-Dostavu                    " VerticalAlignment="Top" Height="55" Width="233" FontSize="20"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="974,195,0,0" Grid.Row="1" VerticalAlignment="Top" Click="button2_Click"/>
 
     </Grid>
 </Page>
