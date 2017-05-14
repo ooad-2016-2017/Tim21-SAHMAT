@@ -1,1 +1,1 @@
-C:\Users\Mirza\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\ProjekatEDostava.csproj;x86
+C:\Users\Afan\Tim21-SAHMAT\Projekat\ProjekatEDostava\ProjekatEDostava\ProjekatEDostava.csproj;x86

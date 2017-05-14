@@ -22,7 +22,7 @@
                 <RowDefinition Height="120"/>
                 <RowDefinition Height="12"/>
                 <RowDefinition Height="40"/>
-                <RowDefinition Height="80"/>
+                <RowDefinition Height="40"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Korisnički profil od username!" Height="40" FontSize="32" VerticalAlignment="Bottom"/>
