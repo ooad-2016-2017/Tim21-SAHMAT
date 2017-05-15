@@ -95,47 +95,57 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DostavljacPrikaz.xaml.cs">
+    <Compile Include="View\DostavljacPrikaz.xaml.cs">
       <DependentUpon>DostavljacPrikaz.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Filteri.xaml.cs">
+    <Compile Include="View\Filteri.xaml.cs">
       <DependentUpon>Filteri.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Kupon.xaml.cs">
+    <Compile Include="View\Kupon.xaml.cs">
       <DependentUpon>Kupon.xaml</DependentUpon>
     </Compile>
-    <Compile Include="KorisnickiProfil.xaml.cs">
+    <Compile Include="View\KorisnickiProfil.xaml.cs">
       <DependentUpon>KorisnickiProfil.xaml</DependentUpon>
     </Compile>
-    <Compile Include="KarticnoPlacanje.xaml.cs">
+    <Compile Include="View\KarticnoPlacanje.xaml.cs">
       <DependentUpon>KarticnoPlacanje.xaml</DependentUpon>
     </Compile>
-    <Compile Include="mainpagepokusaj.xaml.cs">
-      <DependentUpon>mainpagepokusaj.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Narudzba.xaml.cs">
+    <Compile Include="Model\Dostavljac.cs" />
+    <Compile Include="Model\eDostava.cs" />
+    <Compile Include="Model\Gost.cs" />
+    <Compile Include="Model\Jelo.cs" />
+    <Compile Include="Model\Jelovnik.cs" />
+    <Compile Include="Model\Korisnik.cs" />
+    <Compile Include="Model\Kupon.cs" />
+    <Compile Include="Model\Narudzba.cs" />
+    <Compile Include="Model\Osoba.cs" />
+    <Compile Include="Model\Racun.cs" />
+    <Compile Include="Model\Restoran.cs" />
+    <Compile Include="Model\StavkaNarudzbe.cs" />
+    <Compile Include="Model\UposlenikRestorana.cs" />
+    <Compile Include="View\Narudzba.xaml.cs">
       <DependentUpon>Narudzba.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NaslovnaRacun.xaml.cs">
+    <Compile Include="View\NaslovnaRacun.xaml.cs">
       <DependentUpon>NaslovnaRacun.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registracija.xaml.cs">
+    <Compile Include="View\Registracija.xaml.cs">
       <DependentUpon>Registracija.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Restoran.xaml.cs">
+    <Compile Include="View\Restoran.xaml.cs">
       <DependentUpon>Restoran.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RestoranPrikaz.xaml.cs">
+    <Compile Include="View\RestoranPrikaz.xaml.cs">
       <DependentUpon>RestoranPrikaz.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UnosSlike.xaml.cs">
+    <Compile Include="View\UnosSlike.xaml.cs">
       <DependentUpon>UnosSlike.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ZavrsiNarudzbu.xaml.cs">
+    <Compile Include="View\ZavrsiNarudzbu.xaml.cs">
       <DependentUpon>ZavrsiNarudzbu.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -173,66 +183,60 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="DostavljacPrikaz.xaml">
+    <Page Include="View\DostavljacPrikaz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Filteri.xaml">
+    <Page Include="View\Filteri.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Kupon.xaml">
+    <Page Include="View\Kupon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="KorisnickiProfil.xaml">
+    <Page Include="View\KorisnickiProfil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="KarticnoPlacanje.xaml">
+    <Page Include="View\KarticnoPlacanje.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="mainpagepokusaj.xaml">
+    <Page Include="View\Narudzba.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Narudzba.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="View\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="NaslovnaRacun.xaml">
+    <Page Include="View\NaslovnaRacun.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Registracija.xaml">
+    <Page Include="View\Registracija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Restoran.xaml">
+    <Page Include="View\Restoran.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RestoranPrikaz.xaml">
+    <Page Include="View\RestoranPrikaz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UnosSlike.xaml">
+    <Page Include="View\UnosSlike.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ZavrsiNarudzbu.xaml">
+    <Page Include="View\ZavrsiNarudzbu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

@@ -10,12 +10,12 @@
     <Grid x:Name="najveci" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.3*"/>
-            <RowDefinition Height="*"    />
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.5*"    />
         </Grid.RowDefinitions>
         <Grid x:Name="unutrasnji" Grid.Row="2" Margin="0,10,0,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="10"/>
                 <RowDefinition Height="80"/>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="4"/>
