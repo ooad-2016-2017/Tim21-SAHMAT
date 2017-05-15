@@ -8,8 +8,11 @@ namespace ProjekatEDostava.Model
 {
     public class Korisnik:Osoba
     {
+        #region varijable
         List<Narudzba> narudzbe;
         List<Kupon> kuponi;
+        #endregion
+        #region geteri i seteri
         public List<Narudzba> Narudzbe
         {
             get
@@ -35,11 +38,12 @@ namespace ProjekatEDostava.Model
                 kuponi = value;
             }
         }
-
+        #endregion
         public Korisnik() : base()
         {
 
         }
+        #region metode
         public void dodajNarudzbu(Narudzba narudzba)
         {
 
@@ -52,5 +56,6 @@ namespace ProjekatEDostava.Model
         {
             return 0;
         }
+        #endregion
     }
 }

@@ -8,16 +8,21 @@ namespace ProjekatEDostava.Model
 {
     public class Racun
     {
+        #region varijable
         static int trenutniID = 1;
         int id;
+        #endregion
         public Racun()
         {
             id = trenutniID++;
         }
+        #region metode
         public void printajRacun()
         {
 
         }
+        #endregion
+        #region geteri i seteri
         public int Id
         {
             get
@@ -30,5 +35,6 @@ namespace ProjekatEDostava.Model
                 id = value;
             }
         }
+        #endregion
     }
 }

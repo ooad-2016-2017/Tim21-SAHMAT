@@ -8,6 +8,7 @@ namespace ProjekatEDostava.Model
 {
     public class Narudzba
     {
+        #region VARIJABLE
         int id;
         static int trenutniID = 1;
         double cijena;
@@ -15,6 +16,8 @@ namespace ProjekatEDostava.Model
         Kupon kupon;
         bool statusNarudzbe;
         List<StavkaNarudzbe> stavke;
+        #endregion
+        #region GETERI I SETERI
         public bool StatusNarudzbe
         {
             get
@@ -92,7 +95,7 @@ namespace ProjekatEDostava.Model
                 kupon = value;
             }
         }
-
+        #endregion
         public Narudzba()
         {
             id = trenutniID++;
@@ -100,6 +103,7 @@ namespace ProjekatEDostava.Model
             cijena = 0;
             datum = DateTime.Today;
         }
+        #region metode
         public string prikaziNarudzbu()
         {
             return "";
@@ -119,5 +123,6 @@ namespace ProjekatEDostava.Model
         {
 
         }
+        #endregion
     }
 }

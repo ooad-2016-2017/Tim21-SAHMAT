@@ -8,13 +8,16 @@ namespace ProjekatEDostava.Model
 {
     public class Jelovnik
     {
+        #region varijable
         int id;
         List<Jelo> jela;
         static int trenutniID = 1;
+        #endregion
         public Jelovnik()
         {
             id = trenutniID++;
         }
+        #region metode
         public void izbrisiJelo(int idJela)
         {
 
@@ -31,6 +34,8 @@ namespace ProjekatEDostava.Model
         {
 
         }
+        #endregion
+        #region geteri i seteri
         public int Id
         {
             get
@@ -56,5 +61,6 @@ namespace ProjekatEDostava.Model
                 jela = value;
             }
         }
+        #endregion
     }
 }

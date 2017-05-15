@@ -8,11 +8,14 @@ namespace ProjekatEDostava.Model
 {
     public class StavkaNarudzbe
     {
+        #region varijable
         int id;
         static int trenutniID = 1;
         int kolicina;
         double cijena;
         Jelo jelo;
+        #endregion
+        #region geteri i seteri
         public int Kolicina
         {
             get
@@ -64,7 +67,7 @@ namespace ProjekatEDostava.Model
                 jelo = value;
             }
         }
-
+        #endregion
         public StavkaNarudzbe()
         {
             id = trenutniID++;

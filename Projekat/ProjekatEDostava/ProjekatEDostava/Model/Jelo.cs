@@ -9,11 +9,14 @@ namespace ProjekatEDostava.Model
 {
     public class Jelo
     {
+        #region varijable
         int id;
         static int trenutniID = 1;
         Image slika;
         string naziv;
         string opis;
+        #endregion
+        #region geteri i seteri
         public int Id
         {
             get
@@ -65,11 +68,13 @@ namespace ProjekatEDostava.Model
                 opis = value;
             }
         }
+        #endregion
         public Jelo()
         {
             id = trenutniID++;
 
         }
+        #region metode
         public void promjeniSliku(Image _slika)
         {
             
@@ -82,5 +87,6 @@ namespace ProjekatEDostava.Model
         {
             return "";
         }
+        #endregion
     }
 }

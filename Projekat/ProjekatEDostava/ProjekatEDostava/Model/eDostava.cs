@@ -8,8 +8,11 @@ namespace ProjekatEDostava.Model
 {
     public class eDostava
     {
+        #region varijable
         List<Osoba> osobe;
         List<Restoran> restorani;
+        #endregion
+        #region metode
         public void dodajRestoran(Restoran restoran)
         {
 
@@ -34,6 +37,8 @@ namespace ProjekatEDostava.Model
         {
 
         }
+        #endregion
+        #region geteri i seteri
         public List<Osoba> Osobe
         {
             get
@@ -58,6 +63,11 @@ namespace ProjekatEDostava.Model
             {
                 restorani = value;
             }
+        }
+        #endregion
+        public eDostava()
+        {
+
         }
     }
 }

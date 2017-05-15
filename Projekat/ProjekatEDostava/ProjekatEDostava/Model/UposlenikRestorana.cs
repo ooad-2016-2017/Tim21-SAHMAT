@@ -8,12 +8,15 @@ namespace ProjekatEDostava.Model
 {
     public class UposlenikRestorana:Osoba
     {
+        #region varijable
         string imeRestorana;
         List<Narudzba> narudzbe;
+        #endregion
         public UposlenikRestorana() : base()
         {
 
         }
+        #region metode
         public void validirajNarudzbu(int idNarudzbe)
         {
 
@@ -22,6 +25,8 @@ namespace ProjekatEDostava.Model
         {
 
         }
+        #endregion
+        #region geteri i seteri
         public string ImeRestorana
         {
             get
@@ -47,5 +52,6 @@ namespace ProjekatEDostava.Model
                 narudzbe = value;
             }
         }
+        #endregion
     }
 }

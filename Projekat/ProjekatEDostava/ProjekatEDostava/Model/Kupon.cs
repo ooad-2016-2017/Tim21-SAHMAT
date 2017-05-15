@@ -8,12 +8,14 @@ namespace ProjekatEDostava.Model
 {
     public class Kupon
     {
+        #region VARIJABLE
         int id;
         static int trenutniID = 1;
         string kod;
         double kolicinaPopusta;
         bool tipKupona;
-
+        #endregion
+        #region GETERI I SETERI
         public string Kod
         {
             get
@@ -65,6 +67,7 @@ namespace ProjekatEDostava.Model
                 id = value;
             }
         }
+        #endregion
         public Kupon()
         {
             id = trenutniID++;

@@ -9,6 +9,7 @@ namespace ProjekatEDostava.Model
 {
     public class Restoran
     {
+        #region varijable
         int id;
         string naziv;
         string adresa;
@@ -31,10 +32,12 @@ namespace ProjekatEDostava.Model
         List<Kupon> kuponi;
         Jelovnik jelovnik;
         static int trenutniID = 1;
+        #endregion
         public Restoran()
         {
             id = trenutniID++;
         }
+        #region metode
         public void dodajReview(string review)
         {
 
@@ -79,6 +82,8 @@ namespace ProjekatEDostava.Model
         {
 
         }
+        #endregion
+        #region geteri i seteri
         public int Id
         {
             get
@@ -351,5 +356,6 @@ namespace ProjekatEDostava.Model
                 kuponi = value;
             }
         }
+        #endregion
     }
 }

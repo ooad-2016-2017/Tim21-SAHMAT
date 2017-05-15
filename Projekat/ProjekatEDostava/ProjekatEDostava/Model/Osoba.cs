@@ -9,6 +9,7 @@ namespace ProjekatEDostava.Model
 {
     public class Osoba
     {
+        #region VARIJABLE
         string ime;
         string prezime;
         int id;
@@ -18,16 +19,19 @@ namespace ProjekatEDostava.Model
         string password;
         Image slika;
         static int trenutniID = 1;
+        #endregion
         public Osoba()
         {
             id = trenutniID++;
         }
+        #region METODE
         public string ispisiOsobu()
         {
             return "";
         }
-        
 
+        #endregion
+        #region geteri i seteri
         public string Ime
         {
             get
@@ -131,5 +135,6 @@ namespace ProjekatEDostava.Model
                 slika = value;
             }
         }
+        #endregion
     }
 }
