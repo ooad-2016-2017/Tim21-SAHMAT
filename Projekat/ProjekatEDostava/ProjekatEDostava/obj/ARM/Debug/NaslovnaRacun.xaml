@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="ProjekatEDostava.NaslovnaRacun"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatEDostava"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="88,64,0,0" TextWrapping="Wrap" Text="Dobro dosli username!" VerticalAlignment="Top" Height="62" Width="388" FontSize="35"/>
+        <Button x:ConnectionId='2' x:Name="button" Content="Profil" HorizontalAlignment="Left" Margin="213,240,0,0" VerticalAlignment="Top" Height="41" Width="146"/>
+        <Button x:ConnectionId='3' x:Name="button1" Content="Narudzba" HorizontalAlignment="Left" Margin="213,307,0,0" VerticalAlignment="Top" Width="146" Height="41"/>
+        <Button x:ConnectionId='4' x:Name="button2" Content="Mapa restorana" HorizontalAlignment="Left" Margin="213,375,0,0" VerticalAlignment="Top" Width="146" Height="41"/>
+        <Button x:ConnectionId='5' x:Name="button3" Content="Kuponi" HorizontalAlignment="Left" Margin="213,438,0,0" VerticalAlignment="Top" Width="146" Height="41"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock1" HorizontalAlignment="Left" Margin="890,240,0,0" TextWrapping="Wrap" Text="Restorani
+                   " VerticalAlignment="Top" Height="44" Width="114" FontSize="25"/>
+        <ListView x:ConnectionId='7' x:Name="listView" HorizontalAlignment="Left" Height="584" Margin="1044,240,0,0" VerticalAlignment="Top" Width="466"                               >
+            <ListViewItem Content="Buregdzinica"/>
+            <ListViewItem Content="McDonald's"/>
+            <ListViewItem Content="KFC"/>
+            <ListViewItem Content="Pirpa"/>
+        </ListView>
+        <Image x:ConnectionId='8' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="498,64,0,0" VerticalAlignment="Top" Width="100" Source="Assets/person-flat.png" />
+
+    </Grid>
+</Page>
+

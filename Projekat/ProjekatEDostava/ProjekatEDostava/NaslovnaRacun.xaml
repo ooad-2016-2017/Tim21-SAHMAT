@@ -8,20 +8,65 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="88,64,0,0" TextWrapping="Wrap" Text="Dobro dosli username!" VerticalAlignment="Top" Height="62" Width="388" FontSize="35"/>
-        <Button x:Name="button" Content="Profil" HorizontalAlignment="Left" Margin="213,240,0,0" VerticalAlignment="Top" Height="41" Width="146"/>
-        <Button x:Name="button1" Content="Narudzba" HorizontalAlignment="Left" Margin="213,307,0,0" VerticalAlignment="Top" Width="146" Height="41"/>
-        <Button x:Name="button2" Content="Mapa restorana" HorizontalAlignment="Left" Margin="213,375,0,0" VerticalAlignment="Top" Width="146" Height="41"/>
-        <Button x:Name="button3" Content="Kuponi" HorizontalAlignment="Left" Margin="213,438,0,0" VerticalAlignment="Top" Width="146" Height="41"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="890,240,0,0" TextWrapping="Wrap" Text="Restorani
-                   " VerticalAlignment="Top" Height="44" Width="114" FontSize="25"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="584" Margin="1044,240,0,0" VerticalAlignment="Top" Width="466" ItemClick="listView_ItemClick">
-            <ListViewItem Content="Buregdzinica"/>
-            <ListViewItem Content="McDonald's"/>
-            <ListViewItem Content="KFC"/>
-            <ListViewItem Content="Pirpa"/>
-        </ListView>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="498,64,0,0" VerticalAlignment="Top" Width="100" Source="Assets/person-flat.png" />
-
+        <SplitView x:Name="MySplitView"
+                   IsPaneOpen="True"
+                   CompactPaneLength="48"
+                   OpenPaneLength="200"
+                   PaneBackground="Gray" DisplayMode="Inline">
+            <SplitView.Pane>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Background="DarkOrange">
+                        <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+                        <TextBlock Text="Pocetna" FontSize="18" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="Pocetna" FontFamily="Segoe MDL2 Assets" 
+                        Width="50" Height="50" Background="Transparent">
+                            <Image Source="Assets/home-5-xxl.png" Stretch="Fill" />
+                        </Button>
+                        <TextBlock Text="Pocetna" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="Profil" FontFamily="Segoe MDL2 Assets" 
+                        Width="50" Height="50" Background="Transparent">
+                            <Image Source="Assets/avatar.png" Stretch="Fill" />
+                        </Button>
+                        <TextBlock Text="Profil" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="Narudzba" FontFamily="Segoe MDL2 Assets" 
+                        Width="50" Height="50" Background="Transparent">
+                            <Image Source="Assets/basket-cart-icon-27.png" Stretch="Fill" />
+                        </Button>
+                        <TextBlock Text="Narudzba" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="MapaRestorana" FontFamily="Segoe MDL2 Assets"
+                        Width="50" Height="50" Background="Transparent">
+                            <Image Source="Assets/Map-512.png" Stretch="Fill" />
+                        </Button>
+                        <TextBlock Text="Mapa Restorana" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="Kuponi" FontFamily="Segoe MDL2 Assets" 
+                        Width="50" Height="50" Background="Transparent">
+                            <Image Source="Assets/kupon.png" Stretch="Fill" />
+                        </Button>
+                        <TextBlock Text="Kuponi" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="Logout" FontFamily="Segoe MDL2 Assets" 
+                        Width="50" Height="50" Background="Transparent">
+                            <Image Source="Assets/logout-512.png" Stretch="Fill" />
+                        </Button>
+                        <TextBlock Text="Izloguj se" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Frame x:Name="Frejm"/>
+            </SplitView.Content>
+        </SplitView>
     </Grid>
 </Page>

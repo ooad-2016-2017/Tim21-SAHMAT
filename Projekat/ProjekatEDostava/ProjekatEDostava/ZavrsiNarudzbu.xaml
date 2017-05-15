@@ -8,22 +8,36 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="176,100,0,0" TextWrapping="Wrap" Text="Zavrsetak narudzbe
-                   " VerticalAlignment="Top" FontSize="25"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="176,167,0,0" TextWrapping="Wrap" Text="Odabrana jela: " VerticalAlignment="Top"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="276" Margin="176,192,0,0" VerticalAlignment="Top" Width="302">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.25*" />
+                <RowDefinition Height="4.2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="Zavrsetak narudzbe" VerticalAlignment="Center" FontSize="30"/>
+            <Rectangle Fill="#FFF4F4F5" Grid.Row="0" HorizontalAlignment="Left" Height="1" Stroke="Black" VerticalAlignment="Bottom" Width="500"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Grid.Row="1" Margin="15" TextWrapping="Wrap" Text="Odabrana jela: " VerticalAlignment="Top" FontSize="24"/>
+        <ListView Grid.Row="1" x:Name="listView" HorizontalAlignment="Left" Height="200" Margin="15,60,0,0" VerticalAlignment="Top" Width="480">
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
         </ListView>
-        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="100" Margin="718,340,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="176,503,0,0" TextWrapping="Wrap" Text="Restoran: " VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="176,553,0,0" TextWrapping="Wrap" Text="Cijena: " VerticalAlignment="Top" RenderTransformOrigin="0.258,7.7"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="279,503,0,0" TextWrapping="Wrap" Text="Fast Food" VerticalAlignment="Top" RenderTransformOrigin="-1.516,4.8"/>
-        <TextBlock x:Name="textBlock3_Copy" HorizontalAlignment="Left" Margin="279,553,0,0" TextWrapping="Wrap" Text="XX KM" VerticalAlignment="Top" RenderTransformOrigin="-1.516,4.8"/>
-        <Button x:Name="button" Content="Placanje pouzecem" HorizontalAlignment="Left" Margin="176,593,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="Placanje karticom" HorizontalAlignment="Left" Margin="342,593,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="176,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="302"/>
+        <TextBlock Grid.Row="2" x:Name="textBlock2" HorizontalAlignment="Left" Margin="15" TextWrapping="Wrap" Text="Restoran: " VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock Grid.Row="3" x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="15" TextWrapping="Wrap" Text="Cijena: " VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock Grid.Row="2" x:Name="textBlock3" HorizontalAlignment="Left"  Margin="150,0,0,0"  TextWrapping="Wrap" Text="Fast Food" VerticalAlignment="Center" FontSize="24"/>
+            <TextBlock Grid.Row="3" x:Name="textBlock3_Copy" HorizontalAlignment="Left" Margin="150,0,0,0" TextWrapping="Wrap" Text="XX KM" VerticalAlignment="Center" FontSize="24"/>
+            <Button Grid.Row="4" x:Name="button" Content="Placanje pouzecem" Margin="15,0,0,0" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+            <Button Grid.Row="4" x:Name="button1" Content="Placanje karticom" Margin = "200,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        
 
+        </Grid>
+            
     </Grid>
 </Page>

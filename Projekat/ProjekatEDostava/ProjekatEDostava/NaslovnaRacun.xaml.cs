@@ -24,7 +24,28 @@ namespace ProjekatEDostava
     {
         public NaslovnaRacun()
         {
+            
             this.InitializeComponent();
+            Frejm.Content = new KorisnickiProfil();
+        }
+
+        public class Params
+        {
+            public int MyProperty { get; set; }
+        }
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MySplitView.IsPaneOpen)
+            {
+                MySplitView.IsPaneOpen = false;
+                MySplitView.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            }
+            else
+            {
+                MySplitView.IsPaneOpen = true;
+                MySplitView.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void listView_ItemClick(object sender, ItemClickEventArgs e)

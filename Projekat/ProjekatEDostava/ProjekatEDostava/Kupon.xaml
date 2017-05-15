@@ -1,0 +1,18 @@
+﻿<UserControl
+    x:Class="ProjekatEDostava.Kupon"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatEDostava"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="400" Height="200">
+        <TextBlock Text="Unesite kod kupona: " FontSize="16"/>
+        <TextBox  Height="32" Width="100" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="32" Content="Potvrdi"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Height="32" Content="QR kod"/>
+    </Grid>
+</UserControl>

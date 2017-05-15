@@ -7,12 +7,29 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="69,64,0,0" TextWrapping="Wrap" Text="Dobro dosli dostavljač!" VerticalAlignment="Top" Height="62" Width="388" FontSize="35"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="462,26,0,0" VerticalAlignment="Top" Width="100" Source="Assets/person-flat.png" />
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="69,131,0,0" Stroke="Black" VerticalAlignment="Top" Width="562"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="69,181,0,0" TextWrapping="Wrap" Text="Narudžbe spremne za dostavu" VerticalAlignment="Top" FontSize="24" Height="44" Width="562"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="250" Margin="69,230,0,0" VerticalAlignment="Top" Width="562">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,-72">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="320"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" Grid.Column="1"  TextWrapping="Wrap" Text="Dobro dosli dostavljač!" Grid.Row="1" VerticalAlignment="Bottom" Height="52" Width="328" FontSize="30" HorizontalAlignment="Left" />
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Grid.Column="2"  VerticalAlignment="Top" Width="100" Grid.Row="1" Source="Assets/person-flat.png" />
+        <Rectangle Fill="#FFF4F4F5" Height="1" Stroke="Black" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock1" Grid.Row="3"  TextWrapping="Wrap" Grid.Column="1" Text="Narudžbe spremne za dostavu" VerticalAlignment="Top" FontSize="24" Height="44" HorizontalAlignment="Stretch" />
+        <ListView x:Name="listView" Grid.Row="4" HorizontalAlignment="Stretch" Height="250"  VerticalAlignment="Stretch" Grid.Column="1"  >
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
@@ -22,10 +39,10 @@
             <ListViewItem Content="ListViewItem"/>
             <ListViewItem Content="ListViewItem"/>
         </ListView>
-        <Button x:Name="button" Content="Prikaži putanju" HorizontalAlignment="Left" Margin="198,518,0,0" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="69,581,0,0" TextWrapping="Wrap" Text="Označite narudžbu završenom" VerticalAlignment="Top" FontSize="24"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="69,613,0,0" VerticalAlignment="Top" Width="562" Height="48"/>
-        <Button x:Name="button_Copy" Content="Potvrdi" HorizontalAlignment="Left" Margin="198,693,0,0" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
+        <Button x:Name="button" Grid.Row="5" Grid.Column="1" Content="Prikaži putanju" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
+        <TextBlock x:Name="textBlock2" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Označite narudžbu završenom" VerticalAlignment="Top" FontSize="24" Height="32" Width="320"/>
+        <ComboBox x:Name="comboBox" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Stretch"  VerticalAlignment="Center"  />
+        <Button x:Name="button_Copy" Grid.Row="9" Grid.Column="1" Content="Potvrdi" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="259" FontSize="18"/>
 
     </Grid>
 </Page>
