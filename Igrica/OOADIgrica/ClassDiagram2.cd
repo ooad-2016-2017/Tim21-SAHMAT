@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DodajBodove">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\DodajBodove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAACABAAAACAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kraj">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Kraj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KretnjaIgraca">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\KretnjaIgraca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoviLevel">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NoviLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pocetak">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Pocetak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokupiHranu">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\PokupiHranu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PratiIGraca">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\PratiIGraca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PromjenaScorea">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAIAAAAAAABAAAAgABAAAAAAAA=</HashCode>
+      <FileName>Assets\PromjenaScorea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SudarSaObjektima">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\SudarSaObjektima.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
