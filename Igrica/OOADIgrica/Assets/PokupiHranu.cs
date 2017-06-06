@@ -16,6 +16,6 @@ public class PokupiHranu : MonoBehaviour {
     void OnTriggerEnter()
     {        
         FindObjectOfType<PromjenaScorea>().azurirajTekst(1);
-        
+        GetComponent<Renderer>().enabled = false;
     }
 }

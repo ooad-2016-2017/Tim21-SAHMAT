@@ -6,7 +6,7 @@ public class NoviLevel : MonoBehaviour {
 
     public void UcitajSljedeciNivo()
     {
-        
+        Debug.Log("Nivo ucitan");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 	// Use this for initialization

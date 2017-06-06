@@ -90,12 +90,8 @@
      <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <None Include="Assets\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Add.shader" />
-     <None Include="Assets\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Div.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\AVProMovieCapture\Resources\CubemapToEquirectangular.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\AVProMovieCapture\DemoScenes\Resources\AVProMovieCapture_Plasma.shader" />
      <None Include="Assets\FREE Food Pack\Shaders\Food.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
